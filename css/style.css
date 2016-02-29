@@ -1,0 +1,254 @@
+@font-face {
+    font-family: MuseoSans;
+    src: url(/fonts/museosanscyrl/MuseoSansCyrl_2.otf);
+}
+
+html, body {
+    height: 100%;
+    font-family: MuseoSans, sans-serif;
+}
+
+.container-fluid {
+    padding-right: 145px;
+    padding-left: 145px;
+    max-width: 1920px;
+}
+
+@media screen and (max-width: 992px) {
+    .container-fluid {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+.page1 {
+    background: #f6f6f6;
+    background-attachment: fixed;
+    background-size: cover;
+    position: static;
+    min-height: 1095px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.head-line {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.head-line h3 {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.head-line h1 {
+    font-size: 45px;
+    font-family: 'Source Code Pro';
+    font-weight: 300;
+    letter-spacing: 5px;
+
+}
+
+.page1-text {
+    padding-top: 160px;;
+    padding-left: 50px;
+    max-width: 750px;
+    font-size: 15px;
+    line-height: 25px;;
+}
+
+.page2 {
+    padding-top: 76px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-size: cover;
+    position: static;
+
+}
+
+.page2-content {
+    margin-bottom: 84px;
+    display: inline-block;
+}
+
+.page2-content-right {
+    padding-left: 50px;
+}
+
+.page2-content img {
+    float: left;
+    padding-top: 53px;
+    margin-bottom: 68px;
+}
+
+.page2-content_text1 {
+    padding-top: 150px;
+    margin-bottom: 105px;;
+}
+
+.page2-content-lang {
+    margin-left: 45px;
+    text-indent: 1.5em;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    padding-top: 110px;
+}
+
+.page2-content_text2 {
+    clear: both;
+    padding-left: 65px;
+}
+
+.page3 {
+    margin-bottom: 58px;
+}
+.page3-img{
+    width: 100%;
+}
+.page3-text {
+    padding-top: 190px;
+}
+
+.carousel-cont {
+    margin-bottom: 60px;
+}
+
+.carousel-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-link {
+    color: #000000;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 100;
+
+}
+
+.carousel-img {
+    width: 100%;
+}
+
+.brand {
+    font-weight: 900;
+
+}
+
+footer {
+    border-top: solid 1px #e5e5e5;
+}
+.footer-left{
+    border-right: solid 1px #e5e5e5;
+    padding-top: 45px;
+    padding-bottom: 125px;
+    margin-top: 116px;
+}
+.footer-left div {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 12px;
+
+}
+
+
+.footer-right{
+    margin-top: 116px;
+    border-left: solid 1px #e5e5e5;
+}
+.footer-right_text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 12px;
+}
+.footer-right_text div{
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 992px) {
+    .footer-right {
+        border-left: none;
+    }
+}
+@media screen and (max-width: 992px) {
+    .footer-left {
+        border-right: none;
+    }
+}
+.footer-input{
+    width: 41.5%;
+    height: 63px;
+    text-align: center;
+}
+.submit-button{
+    background: #e8dadc;
+    height: 63px;
+    width: 19%;
+    border: none;
+    padding: 0;
+    margin-left: -3px;
+    font-weight: 700;
+}
+
+.footer_maintext {
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.footer-center {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: MuseoSans sans-serif;
+}
+
+.footer-center img {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.footer-center-text {
+}
+
+.new-coll {
+    font-size: 33px;
+    line-height: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 116px;
+
+}
+
+.copyright {
+    float: left;
+    line-height: 20px;
+    padding-top: 22px;
+    color: #9f9f9f;
+}
+
+#responsive-menu {
+    float: right;
+    margin-bottom: 33px;
+}
+
+.icon-bar {
+    height: 3px !important;
+    background: #000000;
+}
+
+.nav-link {
+    color: #9f9f9f;
+}
